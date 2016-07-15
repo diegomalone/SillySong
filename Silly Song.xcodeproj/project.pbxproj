@@ -14,6 +14,8 @@
 		FF7D1EA41D387AB500EB883E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF7D1EA21D387AB500EB883E /* LaunchScreen.storyboard */; };
 		FF7D1EAF1D387AB600EB883E /* Silly_SongTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7D1EAE1D387AB600EB883E /* Silly_SongTests.swift */; };
 		FF7D1EBA1D387AB600EB883E /* Silly_SongUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7D1EB91D387AB600EB883E /* Silly_SongUITests.swift */; };
+		FF7D1EC81D38808400EB883E /* LyricsUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7D1EC71D38808400EB883E /* LyricsUtil.swift */; };
+		FF7D1ECA1D38817800EB883E /* UITextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7D1EC91D38817800EB883E /* UITextFieldDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		FF7D1EB51D387AB600EB883E /* Silly SongUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Silly SongUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF7D1EB91D387AB600EB883E /* Silly_SongUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Silly_SongUITests.swift; sourceTree = "<group>"; };
 		FF7D1EBB1D387AB600EB883E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF7D1EC71D38808400EB883E /* LyricsUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LyricsUtil.swift; sourceTree = "<group>"; };
+		FF7D1EC91D38817800EB883E /* UITextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				FF7D1EA01D387AB500EB883E /* Assets.xcassets */,
 				FF7D1EA21D387AB500EB883E /* LaunchScreen.storyboard */,
 				FF7D1EA51D387AB500EB883E /* Info.plist */,
+				FF7D1EC71D38808400EB883E /* LyricsUtil.swift */,
+				FF7D1EC91D38817800EB883E /* UITextFieldDelegate.swift */,
 			);
 			path = "Silly Song";
 			sourceTree = "<group>";
@@ -257,6 +263,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF7D1E9C1D387AB500EB883E /* ViewController.swift in Sources */,
+				FF7D1EC81D38808400EB883E /* LyricsUtil.swift in Sources */,
+				FF7D1ECA1D38817800EB883E /* UITextFieldDelegate.swift in Sources */,
 				FF7D1E9A1D387AB500EB883E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

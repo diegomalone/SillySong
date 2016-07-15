@@ -9,17 +9,28 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var nameField: UITextField!
+    @IBOutlet weak var lyricsView: UITextView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        nameField.delegate = self
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func reset(sender: AnyObject) {
+        nameField.text = ""
+        lyricsView.text = ""
+    }
 
+    @IBAction func displayLyrics(sender: AnyObject) {
+        if let name = nameField.text where name.characters.count > 0 {
+            lyricsView.text = lyricsForName(bananaFanaTemplate, fullName: name)
+        }
+    }
 }
 
